@@ -1,7 +1,7 @@
 # Constitution scorecard (frozen)
 
 Tony Kawas / 10 September 2026. Evidence freeze. Not a paper.
-Updated: Prediction B **hardened** (conditional); dent rejected for transition; A not promoted.
+Updated: interpolator motivated by two-channel detailed balance (gap: rate linearity).
 
 ---
 
@@ -10,40 +10,41 @@ Updated: Prediction B **hardened** (conditional); dent rejected for transition; 
 1. **Motion** — metric and geodesics.
 2. **Source** — \(G_{\mu\nu}=8\pi G\,T_{\mu\nu}\).
 3. **Reaction** — \(\nabla^\mu T_{\mu\nu}=0\).
-4. **Field** — \(T\) is the TAFA (TIFA) scalar / cone deformation; no observer \(Q\).
+4. **Field** — \(T\) is the TAFA scalar / cone deformation; no observer \(Q\).
 
-**DM floor (sole calibrated galactic constant):**
+**DM floor:** \(a_T=8.25\times10^{-11}\,\mathrm{m\,s^{-2}}\) (calibrated).
+
+**Interpolator status (hardened):**
+Simple form
 \[
-a_T=8.25\times 10^{-11}\,\mathrm{m\,s^{-2}}
+g=\tfrac12 g_N+\sqrt{(\tfrac12 g_N)^2+g_N a_T}
 \]
-Simple interpolator (chosen MOND-family form, **not yet derived from cone**):
-\[
-g=\tfrac12 g_N+\sqrt{(\tfrac12 g_N)^2+g_N a_T}.
-\]
-At \(x=1\): \(g_{\mathrm{obs}}/a_T=\varphi\) exactly (algebra of this choice).
+is the **forced output** of:
+- two-channel cone (active/pause, locked ontology),
+- flux only on active channels,
+- detailed balance with rate ratio \(=g/a_T\) (linear response).
 
-**Prediction B (hardened):** SPARC transition stack is **conditional consistency** of simple vs standard \(\mu\), not a cone confirmation. Window-dependent: ±25% median ~1.69–1.74 (nearer φ); ±10% nearer 2. Galaxy-bootstrap does not remove the caveat. See [Harden_Prediction_B.md](Harden_Prediction_B.md).
+**Remaining gap:** rate linearity is motivated (unique dimensionless ratio + work scales), not proved from the cone Lagrangian. See [Derive_interpolator_detailed_balance.md](Derive_interpolator_detailed_balance.md).
 
-**DE:** pause branch preferred as ontology; distances sky-degenerate with ΛCDM.
+At transition: \(g/a_T=\varphi\) under that package.
 
-**z=12:** prediction / date, not derived.
+**Prediction B:** SPARC transition stack = test of the package; window-dependent; conditional. Not a pure cone theorem until the linearity gap closes.
+
+**DE:** pause branch preferred; distances sky-degenerate with ΛCDM.
+
+**z=12:** prediction/date, not derived.
 
 ---
 
 ## Locked cone accounting
 
-\[
-\left(\tfrac{11}{72}\right)_{\mathrm{cone}}:=\Delta y/\varphi,
-\qquad
-R_{\mathrm{cone}}:=\sqrt{6}/\varphi.
-\]
-10D dictionary retired.
+\((11/72)_{\mathrm{cone}}:=\Delta y/\varphi\), \(R_{\mathrm{cone}}:=\sqrt{6}/\varphi\). 10D dictionary retired.
 
 ---
 
 ## Not locked
 
-**Prediction A** (\(a_T = R_{\mathrm{cone}}\cdot 3\Omega_\Lambda c H_0/(8\pi)\)): motivated coincidence with \(a_0\sim cH_0\); hits best at Planck-like \(H_0\). **Not promoted** as law.
+**Prediction A** (\(a_T\propto R_{\mathrm{cone}}\Omega_\Lambda c H_0\)): not promoted (\(a_0\sim cH_0\) coincidence).
 
 ---
 
@@ -51,40 +52,32 @@ R_{\mathrm{cone}}:=\sqrt{6}/\varphi.
 
 | Test | Result |
 |---|---|
-| SPARC 175, frozen \(a_T\) | med MAE ~10.8 km/s vs Newton ~38 |
-| SPARC Q=1 | med ~11.2 km/s |
-| Transition simple vs standard μ | **conditional** support for height below 2; not cone-derived |
+| SPARC 175 frozen \(a_T\) | med MAE ~10.8 km/s vs Newton ~38 |
+| Transition simple vs standard μ | conditional; window-dependent |
 | Volume constraint | pause = freeze |
 | Cone → Maxwell mapping | valid given A≡ε |
-| Topology | integer N_def; q_0 ≠ e classically |
-| Cone 11/72, R accounting | percent-level accounting |
+| Topology | integer N_def |
+| Cone 11/72, R accounting | percent-level |
 
 ---
 
-## What failed or blocked
+## Failed / blocked
 
-| Item | Status |
-|---|---|
-| Seasonal a_T ∝ H_0/H | disfavored (MUSE-DARK) |
-| Dynamic closure → MUSE a_T(z) | natural ~3%, not 2× |
-| Dent on RCs / as transition fix | rejected (reopens free δ) |
-| Prediction A as locked law | **not adopted** |
-| q_0=e, α classically | blocked |
-| 10D dictionary UV source of 11/72, R | retired |
+Seasonal \(a_T\propto H_0/H\); dynamic closure → MUSE-scale evolution; dent as transition fix; Prediction A as law; classical \(q_0=e\); 10D dictionary as UV source of 11/72, R.
 
 ---
 
 ## Open
 
-1. **Derive the simple interpolator (or φ-height) from cone geometry** — only upgrade that makes B a derivation test.
+1. Close rate-linearity gap from discrete cone update rule.
 2. External full V_bar sample.
 3. Microscopic length without α=1.
 4. Pause-only observable ≠ ΛCDM.
-5. Forced high-z a_T matching MUSE direction.
-6. Cluster Σ_res with parameter-free n_2.
+5. Forced high-z \(a_T\) matching MUSE direction.
+6. Cluster \(\Sigma_{\mathrm{res}}\) parameter-free.
 
 ---
 
 ## Do not reopen without cause
 
-Free f~30, free ξ, observer Q, kpc=z, tuning a until q_0=e, dent δ to force transition onto φ, promote A without independent derivation.
+Free f~30, free ξ, observer Q, kpc=z, dent δ to force φ, promote A.
