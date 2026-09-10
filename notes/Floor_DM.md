@@ -1,6 +1,7 @@
 # DM floor — galactic TAFA (one constant)
 
 Tony Kawas / 4 September 2026. Constitution. Not a paper.
+Updated 10 September 2026: golden transition locked; sole calibrated constant restated.
 
 This floor is **not** a dark-matter particle. It is an effective acceleration law on disks.
 
@@ -12,11 +13,26 @@ One frozen acceleration, taken from the Paper 1 product and then **not retuned**
 
     a_T = Lambda_*^2 * mu = 8.25e-11 m s^{-2}
 
+**This is the only calibrated galactic constant on the whole spine.**
+
 Simple interpolator (same family as MOND “simple” μ):
 
     g_N = V_bar^2 / r
     g   = g_N/2 + sqrt( (g_N/2)^2 + g_N a_T )
     v(r) = sqrt(g r)
+
+At the transition \(x = g_N/a_T = 1\):
+
+\[
+\nu(1)=\tfrac12+\sqrt{\tfrac54}=\varphi=\frac{1+\sqrt{5}}{2}
+\]
+
+**exactly.** That golden value is geometry of the interpolator, not a fit. It is the same \(\varphi\) that enters the locked cone accounting
+
+\[
+\left(\tfrac{11}{72}\right)_{\mathrm{cone}}=\Delta y/\varphi,\qquad
+R_{\mathrm{cone}}=\sqrt{6}/\varphi.
+\]
 
 Transition radius is mass-dependent:
 
@@ -36,8 +52,9 @@ Winding remains a tier label inside a galaxy. Paper 2 gas-disk correction stays 
 - Fitting μ per galaxy.
 - Mapping 12.1 kpc → z = 12, or putting H_0 into μ.
 - Particle DM, including 10^{-22} eV fuzzy DM, as *this* floor.
-- Borrowing Δy, f, or z ~ 0.3 from the DE floor.
+- Borrowing Δy, f, or z ~ 0.3 from the DE floor as a galactic length.
 - Calling a_T derived. It is still calibrated. The upgrade is dropping the second hat, not inventing the first.
+- Seasonal a_T ∝ H_0/H (disfavored by MUSE-DARK).
 
 ---
 
@@ -45,9 +62,11 @@ Winding remains a tier label inside a galaxy. Paper 2 gas-disk correction stays 
 
 | Object | Kind |
 |---|---|
-| a_T | Calibrated (Paper 1 product), now the only galactic constant |
+| a_T | **Sole** calibrated galactic constant |
+| ν(1)=φ | Exact (interpolator geometry) |
 | r_M(M) | Follows from a_T; not free |
 | 12.1 kpc | Typical giant r_M, not a constant |
-| SPARC v(r) with frozen a_T | Prediction (see DM_one_constant.md) |
+| SPARC v(r) with frozen a_T | Live prediction |
+| (11/72)_cone, R_cone | Use φ from this floor; not UV inputs |
 
 Do not raise this floor by adding λ^2, NFW templates, or 12.28×.

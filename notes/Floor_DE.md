@@ -1,56 +1,58 @@
 # DE floor — late TAFA
 
 Tony Kawas / 6 September 2026. Constitution. Not a paper.
+Updated 10 September 2026: cone accounting; pause ontology aligned with scorecard.
 
-This floor is late-universe acceleration and the extra-dimension tick. It does **not** include galactic \(\mu\).
-
-**Room chosen: B1** (see [Decision_B1.md](Decision_B1.md)). B2 refused.
+This floor is late-universe acceleration and the extra-dimension tick. It does **not** include galactic μ.
 
 ---
 
 ## In
 
-4D action:
+4D action (spectator well + observed late acceleration):
 
 $$
 S=\int\mathrm{d}^4x\,\sqrt{-g}\left[
 \frac{M_{\mathrm{Pl}}^2}{2}R
--\Lambda_0
 +\frac12(\partial\phi)^2
 -V_A(\phi)
-\right],
+\right]
++\text{(effective late acceleration)},
 \qquad
 V_A=\Lambda^4\tan^2\!\bigl(\phi/2f\bigr),\quad \lvert\phi\rvert<\pi f.
 $$
 
-- Field parked at \(\phi=0\) today. \(V_A(0)=0\). Acceleration is \(\Lambda_0\).
-- Möbius upgrade from TIFA cosine still stands as geometry of the well, not as DE.
-- Laws as \(G=T\). Homogeneous DE pressure is \(p=-\Lambda_0\). No observer \(Q\).
-- 5D \(\Delta y=0.2445\,f/\Lambda^2\) and the linear map to \(z\sim 0.3\) remain a geometric tick, not “the field turned on DE.”
+**Ontology preferred (scorecard):** pause branch of the volume constraint — field frozen on the slope with \(V_A(\phi_{\mathrm{freeze}})=\rho_\Lambda\), \(N=0\). Distances are sky-identical to flat ΛCDM. No extra hierarchy.
+
+**Observational description:** the same expansion history can be written with a constant \(\Lambda_0\) (old Room B1 language). Pause and B1 are **not** distinguished by SN/BAO distances.
+
+- Möbius upgrade from TIFA cosine still stands as geometry of the well, not as DE fluid.
+- Laws as \(G=T\). No observer \(Q\).
+- 5D \(\Delta y=0.2445\,f/\Lambda^2\) and the linear map to \(z\sim 0.3\) remain a geometric tick, **and** the factor in locked cone accounting \(\Delta y/\varphi\).
 
 ---
 
-## Two rooms
+## Rooms (updated)
 
-**Room B1 — bare \(\Lambda_0\) — CHOSEN**  
-Park \(\phi=0\). \(w=-1\). History is \(\Lambda\)CDM. The TAFA well is not dark energy.
-
-**Room B2 — one field on the slope** — refused.  
-Would need \(f\gtrsim 30\,M_{\mathrm{Pl}}\) to survive Pantheon++DESI. Hierarchy not derived.
-
-Room B3 is **not** on this floor.
+| Room | Content | Status |
+|---|---|---|
+| Pause (preferred ontology) | freeze on slope, no bare letter required in the story | **scorecard** |
+| B1 (observational twin) | write the same history with \(\Lambda_0\) | allowed as bookkeeping |
+| B2 (rolling field DE at large f) | needs \(f\gtrsim 30\,M_{\mathrm{Pl}}\) | **refused** |
+| Track branch of volume constraint | forced p; fails DESI+SN without hierarchy | **not a pass** |
 
 ---
 
 ## Out
 
-- \(z=12\) as derived.
-- \(11/72\), \(R=1.5156\) as eigenvalues.
+- z=12 as derived.
+- 11/72, R as **eigenvalues or 10D UV inputs** (they are now **cone accounting**: \(\Delta y/\varphi\), \(\sqrt{6}/\varphi\)).
 - TAFA calculates quantum gravity.
 - Winding ODE as a cosmic calendar.
-- Identifying \(\Delta y\) with \(12.1\,\mathrm{kpc}\).
+- Identifying Δy with 12.1 kpc.
 - One mass serving this floor and the DM floor.
 - Field-DE without the hierarchy.
+- Seasonal a_T ∝ H_0/H as DE/disk glue.
 
 ---
 
@@ -59,13 +61,15 @@ Room B3 is **not** on this floor.
 | Object | Kind |
 |---|---|
 | Möbius TIFA → TAFA | Derived |
-| \(\Delta y\), late \(z\sim 0.3\) | Derived as 5D interval + linear map; not field-DE onset |
-| B1 choice | Decision |
-| \(\Lambda_0\) | Observational; not derived |
-| B2 \(f\gtrsim 30\,M_{\mathrm{Pl}}\) | Refused |
+| Δy, late z∼0.3 | Derived as 5D interval + linear map |
+| (11/72)_cone = Δy/φ | Locked accounting (uses Δy) |
+| R_cone = √6/φ | Locked accounting |
+| Pause vs B1 distances | Degenerate |
+| Λ_0 if written | Observational; not derived |
+| B2 hierarchy | Refused |
 
 ---
 
 ## What would raise this floor later
 
-A closed equation that *computes* \(\Lambda_0\). Until then the DE floor is \(\Lambda\)CDM plus a spectator well.
+A closed equation that *computes* the freeze density (or Λ_0) without a free scale, **or** one observable where pause differs from a pure constant. Until then the DE floor is ΛCDM-distances plus a spectator well with pause ontology.

@@ -1,8 +1,9 @@
 # Five routes — results
 
 Tony Kawas / 7 September 2026. Calculation. Not a proof.
+Updated 10 September 2026: R and 11/72 reassigned to cone accounting.
 
-Old solution: one well, both rooms, no Λ₀. z=12 stays up as an early date.
+Old solution target: one well, both rooms, no free hierarchy. z=12 stays up as an early date.
 
 ---
 
@@ -18,9 +19,9 @@ Old solution: one well, both rooms, no Λ₀. z=12 stays up as an early date.
 | z/(1+z) | 0.96 |
 | ln E(z) | 0.85 |
 
-All late. None is 12. The geometric interval still talks to Paper 3, not to first light.
+All late. None is 12.
 
-**Not a proof of field-DE. Not a derivation of z=12.**
+**Update:** Δy is kept as geometry **and** as the factor in (11/72)_cone = Δy/φ. Still not a derivation of z=12.
 
 ---
 
@@ -34,71 +35,53 @@ Family-1 5D, f=Λ=1:
 | 10^{-3} | 10.65 | −0.499 | 0.244 |
 | 10^{-4} | 21.83 | −0.499 | 0.244 |
 
-I depends on how close to the tip you start. It is not a unique R=1.5156.
+I depends on tip cutoff. It is **not** a unique R=1.5156.
 
-Matching M_Pl^2 = M_5^3 I to ρ_Λ ~ 10^{-120} M_Pl^4 does **not** print f ~ 30 M_Pl. Wrong direction or an extra scale still free.
+**Update:** the historical R is no longer expected from this integral. Locked replacement:
 
-**Not a proof.**
+\[
+R_{\mathrm{cone}}=\sqrt{6}/\varphi\approx 1.5139.
+\]
+
+Different object, different origin (activation surface × golden transition).
 
 ---
 
 ## 3. Lapse N = e^{A(φ)} from the same 5D profile, f = M_Pl
 
-| model | w(0) | w(0.3) | w(1) |
-|---|---|---|---|
-| warp lapse | −1 | −0.52 | +0.68 |
-| ordinary 3H | −1 | +0.04 | +1.00 |
-| 3H, f=30 (reference only) | −1 | −1.00 | −0.95 |
+Does not hold DE at Planckian f.
 
-Listed geometric N does not hold DE at Planckian f.
-
-**Not a proof.**
+**Update:** preferred DE ontology is the **pause branch** (N=0), not geometric N=e^A as a roll freeze. Pause is sky-degenerate with ΛCDM distances.
 
 ---
 
 ## 4. Law-4 condensate on a homogeneous sky
 
-Madelung quantum pressure is ~ ∇²√ρ. In FLRW, ∇ρ=0, so P_Q=0.
-
-A polytrope P=K ρ_φ^2 bolted on by hand makes w *worse* (more positive) for K>0.
-
-Condensate pressure can still matter on the **disk** floor (gradients exist). It does not freeze late DE.
-
-**Not a proof of DE. Disk floor still open.**
+Madelung quantum pressure vanishes in FLRW (∇ρ=0). Condensate can still matter on the **disk** floor (gradients exist). Does not freeze late DE.
 
 ---
 
-## 5. Non-minimal ξ φ^2 R, Einstein frame, f = M_Pl
+## 5. Non-minimal ξ φ² R, Einstein frame, f = M_Pl
 
-Integrated, α=1, no extra f:
+Only route that looked like DE at f=M_Pl — by introducing **ξ**. Conformal ξ=1/6 is distinguished and **not enough**. ξ must be derived or this is a new letter. Prior DESI+Lyα scoring did not close the line without hierarchy.
 
-| ξ | w(0.3) | w(1) |
-|---|---|---|
-| 0 | +0.04 | +1.00 |
-| 1/6 (conformal) | −0.32 | +0.99 |
-| 0.5 | −0.84 | +0.58 |
-| **1** | −0.99 | −0.76 |
-| **2** | −1.00 | −0.95 |
-| 10 | −1.00 | −0.95 |
-
-This is the only route that can look like DE at f=M_Pl. It does it by a **new coupling ξ**.
-
-Conformal ξ=1/6 is the only distinguished value on the cone, and it is **not enough**. ξ ≳ 2 works on this integrator through z=1; DESI Lyα (z=2.33) not yet scored.
-
-**Not a finished proof.** It is the first old-solution mechanism that does not need f ~ 30.
+**Status:** still open only if ξ is forced; not the preferred floor (pause is).
 
 ---
 
-## Keep / drop after this run
+## Keep / drop after cone update
 
 | Piece | Keep? |
 |---|---|
-| One well, both rooms, no Λ₀ | Keep as the target |
-| z=12 as early date | Keep; these routes did not derive it |
+| One well, pause ontology | Keep |
+| z=12 as early date | Keep; not derived here |
 | Paper 41 interval as late z~0.3 | Keep as geometry |
+| Δy in (11/72)_cone | Keep (accounting) |
 | 5D slab, A→−1/2 | Keep |
+| R from ∫ e^{2A} | **Drop** — use R_cone |
+| 11/72 as asymptotic eigenvalue | **Drop** — use (11/72)_cone |
 | N=e^A as DE freeze | Drop for DE |
 | Homogeneous Madelung as DE freeze | Drop for DE |
-| ξ φ^2 R | Keep as the open proof line; ξ must be derived or this is a new letter |
+| ξ φ² R as preferred DE | Drop unless ξ derived |
 
-Next honest shot: derive ξ from the cone (not fit it), then score ξ-fixed B2 on Pantheon+ and DESI including Lyα.
+Next honest shots stay those on the scorecard open list: pause-only observable, α without α=1, cluster n_2, or a forced high-z a_T matching data direction.
